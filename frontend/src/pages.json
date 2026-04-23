@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "上传视频",
+        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "历史记录",
+        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/player/player",
+      "style": {
+        "navigationBarTitleText": "视频播放",
+        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "视频播放器",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "上传",
+        "iconPath": "static/upload.png",
+        "selectedIconPath": "static/upload-active.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "static/history.png",
+        "selectedIconPath": "static/history-active.png"
+      }
+    ]
+  }
+}
